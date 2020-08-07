@@ -48,10 +48,10 @@ public class CoursePage extends ContentBasePage {
         return contentNavigationCourseBlock;
     }
 
-    @Override
-    public CoursePage openUrl() {
-        super.openUrl("https://geekbrains.ru/courses");
-        return this;
-    }
+   @Override
+   public CoursePage openUrl() {
+       super.openUrl("https://geekbrains.ru/courses");
+       return this;
+   }
 }
 

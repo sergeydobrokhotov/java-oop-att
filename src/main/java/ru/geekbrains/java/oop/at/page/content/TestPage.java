@@ -8,10 +8,9 @@ public class TestPage extends ContentBasePage {
     public TestPage(WebDriver driver) {
         super(driver);
     }
-
-    @Override
-    public TestPage openUrl() {
-        super.openUrl("https://geekbrains.ru/tests");
-        return this;
+        @Override
+        public TestPage openUrl() {
+            super.openUrl("https://geekbrains.ru/search");
+            return this;
+        }
     }
-}

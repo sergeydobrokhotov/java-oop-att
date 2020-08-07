@@ -8,7 +8,7 @@ import ru.geekbrains.java.oop.at.page.BasePageObject;
 import ru.geekbrains.java.oop.at.page.OpenUrl;
 import ru.geekbrains.java.oop.at.page.content.HomePage;
 
-public class AuthorizationPage extends BasePageObject implements OpenUrl {
+public abstract class AuthorizationPage extends BasePageObject implements OpenUrl {
 
     @FindBy(css = "[data-testid='login-email']")
     private WebElement inputLogin;

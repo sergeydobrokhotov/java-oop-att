@@ -53,6 +53,11 @@ public class HeaderBlock extends BasePageObject {
         super(driver);
     }
 
+    @Override
+    public HeaderBlock getHeader() {
+        return null;
+    }
+
     @Step("проверка что имя страницы: {exampleNamePage}")
     public HeaderBlock checkNamePage(String exampleNamePage) {
         wait10second.until(ExpectedConditions.textToBePresentInElement(headerTitlePage, exampleNamePage));

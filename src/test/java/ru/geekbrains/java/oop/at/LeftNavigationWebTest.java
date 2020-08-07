@@ -39,7 +39,7 @@ public class LeftNavigationWebTest extends BeforeAndAfterStep {
         new TestPage(driver)
                 .openUrl()
                 .getLeftNavigation().clickButton(button)
-                .getHeaderBlock().checkNamePage(button.getText());
+                .getHeader().checkNamePage(button.getText());
     }
 
 
@@ -50,6 +50,6 @@ public class LeftNavigationWebTest extends BeforeAndAfterStep {
                 .openUrl()
                 .getLeftNavigation().clickButton(Button.POSTS)
                 .closedPopUp()
-                .getHeaderBlock().checkNamePage(Button.POSTS.getText());
+                .getHeader().checkNamePage(Button.POSTS.getText());
     }
 }

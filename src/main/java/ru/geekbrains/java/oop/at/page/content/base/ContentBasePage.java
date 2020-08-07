@@ -20,6 +20,7 @@ public abstract class ContentBasePage extends BasePageObject implements OpenUrl 
 
     @FindBy(css = "div button svg[class='svg-icon icon-popup-close-button ']")
     private WebElement buttonPopUpClosed;
+    private Object SearchTabsBlock;
 
     public ContentBasePage(WebDriver driver) {
         super(driver);
@@ -34,7 +35,17 @@ public abstract class ContentBasePage extends BasePageObject implements OpenUrl 
             this.buttonPopUpClosed.click();
         }
         return this;
+
     }
+
+    public LeftNavigation getLeftNavigation() {
+        return leftNavigation;
+    }
+
+    public HeaderBlock getHeader() {
+        return headerBlock;
+    }
+
 
     /**
      * Адаптер над объектом HeaderBlock
@@ -45,9 +56,15 @@ public abstract class ContentBasePage extends BasePageObject implements OpenUrl 
         return this;
     }
 
+    //  @Override
+    //  public BasePageObject openUrl() {
+    //      return null;
+    //  }
+
     @Step("Переход на страницу {url}")
     public BasePageObject openUrl(String url) {
         driver.get(url);
         return this;
     }
+
 }

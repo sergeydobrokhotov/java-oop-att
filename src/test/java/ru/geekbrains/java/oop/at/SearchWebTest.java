@@ -31,7 +31,7 @@ public class SearchWebTest extends BeforeAndAfterStep {
     void searchTest() {
         new TestPage(driver)
                 .openUrl()
-                .getHeaderBlock()
+                .getHeader()
                 .searchText("java")
                 .getSearchTabsBlock()
                 .checkCount(SearchTabsBlock.Tab.PROFESSIONS, greaterThanOrEqualTo(2))

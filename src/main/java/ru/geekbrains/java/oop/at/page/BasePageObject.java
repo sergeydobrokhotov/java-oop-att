@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.geekbrains.java.oop.at.block.HeaderBlock;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,10 +36,11 @@ public abstract class BasePageObject {
             }
         }
 
+
         throw new RuntimeException("В коллекции элементов: " + arrayList + "\nНе найден элемент с текстом: " + expectedText);
     }
 
 
-
+    public abstract HeaderBlock getHeader();
 }
 

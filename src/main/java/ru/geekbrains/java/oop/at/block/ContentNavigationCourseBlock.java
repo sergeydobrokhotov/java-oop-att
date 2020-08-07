@@ -27,6 +27,11 @@ public class ContentNavigationCourseBlock extends BasePageObject {
         super(driver);
     }
 
+    @Override
+    public HeaderBlock getHeader() {
+        return null;
+    }
+
     @Step("Нажатие на tab: {tab}")
     public CoursePage clickTab(Tab tab) {
         switch (tab) {

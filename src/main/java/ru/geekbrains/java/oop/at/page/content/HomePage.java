@@ -8,10 +8,10 @@ public class HomePage extends ContentBasePage {
     public HomePage(WebDriver driver) {
         super(driver);
     }
-
-    @Override
-    public HomePage openUrl() {
-        super.openUrl("https://geekbrains.ru/");
-        return this;
+        @Override
+        public HomePage openUrl () {
+            super.openUrl("https://geekbrains.ru/");
+            return this;
+        }
     }
-}
+

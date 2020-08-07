@@ -37,6 +37,11 @@ public class LeftNavigation extends BasePageObject {
         super(driver);
     }
 
+    @Override
+    public HeaderBlock getHeader() {
+        return null;
+    }
+
     @Step("Нажатие кнопки {button}")
     public ContentBasePage clickButton(Button button) {
         ContentBasePage contentBasePage = null;
