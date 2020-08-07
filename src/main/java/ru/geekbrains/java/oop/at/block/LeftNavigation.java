@@ -4,12 +4,11 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import ru.geekbrains.java.oop.at.page.BasePageObject;
 import ru.geekbrains.java.oop.at.page.content.CoursePage;
 import ru.geekbrains.java.oop.at.page.content.HomePage;
 import ru.geekbrains.java.oop.at.page.content.TestPage;
-
+import ru.geekbrains.java.oop.at.page.content.base.ContentBasePage;
 
 public class LeftNavigation extends BasePageObject {
 
@@ -36,13 +35,11 @@ public class LeftNavigation extends BasePageObject {
 
     public LeftNavigation(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver, this);
     }
 
-
-    @Step("Нажатие кнопки {nameButton}")
-    public HomePage clickButton(Button button) {
-        HomePage contentBasePage = null;
+    @Step("Нажатие кнопки {button}")
+    public ContentBasePage clickButton(Button button) {
+        ContentBasePage contentBasePage = null;
 
         switch (button) {
             case ICON:
@@ -74,11 +71,21 @@ public class LeftNavigation extends BasePageObject {
                 buttonCareer.click();
                 break;
         }
+
         if (contentBasePage == null) {
             contentBasePage = new HomePage(driver);
         }
+
         return contentBasePage;
     }
+
+
+//    Enum —  класс. Список который имеет ограниченный, неизменяемый набор значений
+//    Но он специально «заточен» на решение задач:
+//      создание некоторого ограниченного круга значений.
+
+//    В нашем случае позволяет определив в одном месте, использовать этот список везде в проекте.
+//    И не дать возможность пользователю допустить ошибку с названием кнопки
 
     public enum Button {
         ICON("Главная"),

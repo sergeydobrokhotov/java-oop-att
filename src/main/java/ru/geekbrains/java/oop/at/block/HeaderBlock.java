@@ -4,7 +4,6 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.geekbrains.java.oop.at.page.BasePageObject;
 import ru.geekbrains.java.oop.at.page.content.SearchPage;
@@ -52,7 +51,6 @@ public class HeaderBlock extends BasePageObject {
 
     public HeaderBlock(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver, this);
     }
 
     @Step("проверка что имя страницы: {exampleNamePage}")
@@ -65,9 +63,10 @@ public class HeaderBlock extends BasePageObject {
     }
 
     @Step("поиск на сайте по тексту: {exampleNamePage}")
-    public SearchPage searchText(String text) {
+    public SearchPage searchText(String exampleNamePage) {
         buttonSearch.click();
-        inputSearch.sendKeys(text);
+        inputSearch.sendKeys(exampleNamePage);
         return new SearchPage(driver);
     }
 }
+

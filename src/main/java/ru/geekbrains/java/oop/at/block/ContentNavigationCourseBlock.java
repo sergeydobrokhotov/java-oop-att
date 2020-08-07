@@ -1,13 +1,15 @@
 package ru.geekbrains.java.oop.at.block;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import ru.geekbrains.java.oop.at.page.BasePageObject;
 import ru.geekbrains.java.oop.at.page.content.CoursePage;
 
+
 public class ContentNavigationCourseBlock extends BasePageObject {
+
 
     @FindBy(css = "[class*='nav nav-tabs'] [id='prof-link']")
     private WebElement tabProfessions;
@@ -23,9 +25,9 @@ public class ContentNavigationCourseBlock extends BasePageObject {
 
     public ContentNavigationCourseBlock(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver, this);
     }
 
+    @Step("Нажатие на tab: {tab}")
     public CoursePage clickTab(Tab tab) {
         switch (tab) {
             case PROFESSIONS: {
@@ -48,6 +50,12 @@ public class ContentNavigationCourseBlock extends BasePageObject {
         return new CoursePage(driver);
     }
 
+//    Enum —  класс. Список который имеет ограниченный, неизменяемый набор значений
+//    Он специально «заточен» на решение задач:
+//      создание некоторого ограниченного круга значений.
+
+    //    В нашем случае позволяет определив в одном месте, использовать этот список везде в проекте.
+//    И не дать возможность пользователю допустить ошибку с названием кнопки
     public enum Tab {
         PROFESSIONS,
         FREE_INTENSIVE,
@@ -55,3 +63,4 @@ public class ContentNavigationCourseBlock extends BasePageObject {
         COMPANIES;
     }
 }
+

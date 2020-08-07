@@ -1,18 +1,21 @@
 package ru.geekbrains.java.oop.at.page.content.base;
 
+import io.qameta.allure.Step;
+import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import ru.geekbrains.java.oop.at.block.HeaderBlock;
-import ru.geekbrains.java.oop.at.block.LeftNavigation;
 import ru.geekbrains.java.oop.at.page.BasePageObject;
 import ru.geekbrains.java.oop.at.page.OpenUrl;
+import ru.geekbrains.java.oop.at.block.HeaderBlock;
+import ru.geekbrains.java.oop.at.block.LeftNavigation;
 
 public abstract class ContentBasePage extends BasePageObject implements OpenUrl {
 
+    @Getter
     protected LeftNavigation leftNavigation;
+    @Getter
     protected HeaderBlock headerBlock;
 
     @FindBy(css = "div button svg[class='svg-icon icon-popup-close-button ']")
@@ -22,23 +25,15 @@ public abstract class ContentBasePage extends BasePageObject implements OpenUrl 
         super(driver);
         this.headerBlock = new HeaderBlock(driver);
         this.leftNavigation = new LeftNavigation(driver);
-        PageFactory.initElements(driver, this);
     }
 
+    @Step("Закрытие Pop-UP")
     public ContentBasePage closedPopUp() {
         wait10second.until(ExpectedConditions.visibilityOf(buttonPopUpClosed));
         if (buttonPopUpClosed.isDisplayed()) {
             this.buttonPopUpClosed.click();
         }
         return this;
-    }
-
-    public LeftNavigation getLeftNavigation() {
-        return leftNavigation;
-    }
-
-    public HeaderBlock getHeader() {
-        return headerBlock;
     }
 
     /**
@@ -50,8 +45,9 @@ public abstract class ContentBasePage extends BasePageObject implements OpenUrl 
         return this;
     }
 
-    @Override
-    public BasePageObject openUrl() {
-        return null;
+    @Step("Переход на страницу {url}")
+    public BasePageObject openUrl(String url) {
+        driver.get(url);
+        return this;
     }
 }
