@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="502b4a4a-9cc6-4677-a4b9-2fdc3bf4ac63" name="Default Changelist" comment="Изменения из 7-ой ветки">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson7hw" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1felJNB7H11x0LDsNQahBUw96zY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SearchWebTest.searchTest">
+    <configuration name="AuthorizationWebTest.events" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-att" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.AuthorizationWebTest" />
+      <option name="METHOD_NAME" value="events" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseWebTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-att" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.CourseWebTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseWebTest.checkSingInValidLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-att" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.CourseWebTest" />
+      <option name="METHOD_NAME" value="checkSingInValidLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftNavigationWebTest.checkNavigationNotPopUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-att" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.LeftNavigationWebTest" />
+      <option name="METHOD_NAME" value="checkNavigationNotPopUp(ru.geekbrains.java.oop.at.block.LeftNavigation$Button)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchWebTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-att" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.SearchWebTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchWebTest.searchTest" />
+        <item itemvalue="JUnit.LeftNavigationWebTest.checkNavigationNotPopUp" />
+        <item itemvalue="JUnit.CourseWebTest.checkSingInValidLogin" />
+        <item itemvalue="JUnit.AuthorizationWebTest.events" />
+        <item itemvalue="JUnit.CourseWebTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="502b4a4a-9cc6-4677-a4b9-2fdc3bf4ac63" name="Default Changelist" comment="" />
+      <created>1596586366838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596586366838</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Изменения из 7-ой ветки">
+      <created>1596794799716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596794799716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Изменения из 7-ой ветки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменения из 7-ой ветки" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="373" y="-730" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597043017531">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="373" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597043017531" />
+    <state x="388" y="-862" key="#com.intellij.ide.util.MemberChooser" timestamp="1596811269073">
+      <screen x="-323" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="388" y="-862" key="#com.intellij.ide.util.MemberChooser/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596811269073" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1596586830516" />
+    <state x="375" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596794447703">
+      <screen x="-323" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="375" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596794447703" />
+    <state x="260" y="-946" key="CommitChangelistDialog2" timestamp="1597043765344">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="260" y="-926" key="CommitChangelistDialog2/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596811495284" />
+    <state x="260" y="-946" key="CommitChangelistDialog2/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597043765344" />
+    <state x="39" y="-920" key="DiffContextDialog" timestamp="1597043757688">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="39" y="-920" key="DiffContextDialog/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597043757688" />
+    <state width="1878" height="210" key="GridCell.Tab.0.bottom" timestamp="1597041898128">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596812353207" />
+    <state width="1878" height="210" key="GridCell.Tab.0.bottom/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597041898128" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596587120694" />
+    <state width="1878" height="210" key="GridCell.Tab.0.center" timestamp="1597041898123">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.center/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596812353205" />
+    <state width="1878" height="210" key="GridCell.Tab.0.center/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597041898123" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596587120692" />
+    <state width="1878" height="210" key="GridCell.Tab.0.left" timestamp="1597041898121">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.left/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596812353204" />
+    <state width="1878" height="210" key="GridCell.Tab.0.left/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597041898121" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596587120691" />
+    <state width="1878" height="210" key="GridCell.Tab.0.right" timestamp="1597041898126">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.right/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596812353206" />
+    <state width="1878" height="210" key="GridCell.Tab.0.right/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597041898126" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596587120693" />
+    <state x="175" y="-867" key="Maven.ArtifactSearchDialog" timestamp="1596611224679">
+      <screen x="-323" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="175" y="-867" key="Maven.ArtifactSearchDialog/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596611224679" />
+    <state x="399" y="-905" key="refactoring.ChangeSignatureDialog" timestamp="1596801095936">
+      <screen x="-323" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="399" y="-905" key="refactoring.ChangeSignatureDialog/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596801095936" />
+  </component>
+</project>
