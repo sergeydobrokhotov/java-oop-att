@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502b4a4a-9cc6-4677-a4b9-2fdc3bf4ac63" name="Default Changelist" comment="Изменения из 7-ой ветки">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/0306a1c9-4a0c-4d64-94bc-f9e4e5f17f81-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/0c2a4eaf-260e-4054-92d6-fa268c6c79db-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/146a1b01-64ce-441d-b0dd-6d004527f7fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/2358476b-3be4-48d6-bded-e81ca33b5bf7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/2504999e-eb94-45f4-8e4b-38601fa34f0d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/2a4135dd-9bcc-49bf-b6c0-c50f042dd64d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/30f1431c-4e30-4e09-ba41-46c07a568fee-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/414bca58-c901-49a0-b4ed-2ea7d0f6674c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/41b2c78a-e663-4d2f-88b6-f57639ddff39-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/41f66e75-ba27-4afc-b1f5-1b98e2f753db-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/45acba1f-0ac3-4a11-9f1f-0a8d8d1a0899-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/489bf369-68dd-4b28-9610-4e07183febd1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/4fe94f48-3880-477c-8929-1d6ca6e45041-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/6f27104e-bbb6-413b-ae91-48d85f8591fe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/961927f3-643c-4cb0-933a-9f2f1d2a6278-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/ac655b7f-d8d2-45fb-bbc1-e90cf4eb4ed9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/bb1f1b7b-d969-4524-8b5e-09c110d8e60b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/bb67916f-4d74-48d8-8358-3bcf8e635924-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/c28fd045-2fd1-4eac-ad92-c2fc730f14f7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/c7798fdb-6253-465b-a7b0-fb065399bd09-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/cf00e515-e0b1-4f0a-8f90-a5698a2461a2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/executor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/array/ArrayExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/array/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/collections/CollectionsMethodExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/collections/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/collections/IteratorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/equals1/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/equals1/EqualsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/equals2/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/equals2/EqualsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/hashmap/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/hashmap/MapExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/hashset/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/hashset/HashSetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hw/FirstTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hw/PhoneBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hw/SecondTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-08-10T09-42-53_090.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.geekbrains.java.oop.at.AuthorizationWebTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.geekbrains.java.oop.at.CourseWebTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.geekbrains.java.oop.at.LeftNavigationWebTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.geekbrains.java.oop.at.SearchWebTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/ru.geekbrains.java.oop.at.AuthorizationWebTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/ru.geekbrains.java.oop.at.CourseWebTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/ru.geekbrains.java.oop.at.LeftNavigationWebTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/ru.geekbrains.java.oop.at.SearchWebTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,12 +207,20 @@
       <option name="project" value="LOCAL" />
       <updated>1596794799716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавил файл README.md">
+      <created>1597044107883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597044107883</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Изменения из 7-ой ветки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменения из 7-ой ветки" />
+    <MESSAGE value="добавил файл README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил файл README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="373" y="-730" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597043017531">
@@ -181,11 +236,11 @@
       <screen x="-323" y="-1057" width="1920" height="1057" />
     </state>
     <state x="375" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596794447703" />
-    <state x="260" y="-946" key="CommitChangelistDialog2" timestamp="1597043765344">
+    <state x="260" y="-946" key="CommitChangelistDialog2" timestamp="1597044107303">
       <screen x="-323" y="-1080" width="1920" height="1080" />
     </state>
     <state x="260" y="-926" key="CommitChangelistDialog2/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596811495284" />
-    <state x="260" y="-946" key="CommitChangelistDialog2/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597043765344" />
+    <state x="260" y="-946" key="CommitChangelistDialog2/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597044107303" />
     <state x="39" y="-920" key="DiffContextDialog" timestamp="1597043757688">
       <screen x="-323" y="-1080" width="1920" height="1080" />
     </state>
@@ -218,6 +273,14 @@
       <screen x="-323" y="-1057" width="1920" height="1057" />
     </state>
     <state x="175" y="-867" key="Maven.ArtifactSearchDialog/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596611224679" />
+    <state x="237" y="-812" key="Vcs.Push.Dialog.v2" timestamp="1597044143298">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="237" y="-812" key="Vcs.Push.Dialog.v2/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597044143298" />
+    <state x="411" y="-820" key="git4idea.branch.GitSmartOperationDialog" timestamp="1597044395714">
+      <screen x="-323" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="411" y="-820" key="git4idea.branch.GitSmartOperationDialog/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597044395714" />
     <state x="399" y="-905" key="refactoring.ChangeSignatureDialog" timestamp="1596801095936">
       <screen x="-323" y="-1057" width="1920" height="1057" />
     </state>
