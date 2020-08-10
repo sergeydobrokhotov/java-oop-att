@@ -23,6 +23,7 @@ public abstract class BasePageObject {
         PageFactory.initElements(driver, this);
     }
 
+
     @Step("Ишу в коллекции WebElement элемент с текстом: {expectedText}")
     protected WebElement findElement(List<WebElement> list, String expectedText) {
         List<String> arrayList = new ArrayList<>();

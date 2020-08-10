@@ -31,6 +31,7 @@ public abstract class AuthorizationPage extends BasePageObject implements OpenUr
         return new HomePage(driver);
     }
 
+
     @Override
     public AuthorizationPage openUrl() {
         openUrl("https://geekbrains.ru/login");

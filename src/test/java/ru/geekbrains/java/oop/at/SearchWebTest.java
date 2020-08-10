@@ -21,6 +21,7 @@ import static org.hamcrest.Matchers.*;
 @Execution(ExecutionMode.CONCURRENT)
 public class SearchWebTest extends BeforeAndAfterStep {
 
+
     @BeforeEach
     void beforeSearchTest() {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

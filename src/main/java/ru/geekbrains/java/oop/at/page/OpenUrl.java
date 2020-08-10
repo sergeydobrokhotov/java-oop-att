@@ -4,4 +4,5 @@ public interface OpenUrl {
 
     BasePageObject openUrl();
 
+
 }

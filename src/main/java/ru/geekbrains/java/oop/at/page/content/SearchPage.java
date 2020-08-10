@@ -14,6 +14,7 @@ public  class  SearchPage extends ContentBasePage {
     public SearchPage(WebDriver driver) {
         super(driver);
         this.searchTabsBlock = new SearchTabsBlock(driver) {
+
             @Override
             public HeaderBlock getHeader() {
                 return null;

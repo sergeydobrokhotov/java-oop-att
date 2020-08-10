@@ -13,6 +13,7 @@ public abstract class BeforeAndAfterStep {
 
     public WebDriver driver;
 
+
     @BeforeEach
     public void baseTestBeforeAll() {
         WebDriverManager.chromedriver().setup();

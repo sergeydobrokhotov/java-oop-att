@@ -37,6 +37,7 @@ public class ContentNavigationCourseBlock extends BasePageObject {
         switch (tab) {
             case PROFESSIONS: {
                 tabProfessions.click();
+
                 //TODO нужно реализовать для данного блока
             }
             case FREE_INTENSIVE: {

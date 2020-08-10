@@ -30,6 +30,7 @@ public class LeftNavigation extends BasePageObject {
     @FindBy(css = "[id='nav'] [href='/tests']")
     private WebElement buttonTests;
 
+
     @FindBy(css = "[id='nav'] [href='/career']")
     private WebElement buttonCareer;
 

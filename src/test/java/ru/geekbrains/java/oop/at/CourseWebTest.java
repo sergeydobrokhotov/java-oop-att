@@ -18,6 +18,7 @@ import ru.geekbrains.java.oop.at.page.content.CoursePage;
 public class CourseWebTest extends BeforeAndAfterStep {
 
     @DisplayName("Проверка работы фильтров")
+
     @Test
     void checkSingInValidLogin() {
         CoursePage coursePage = ((CoursePage)

@@ -28,6 +28,7 @@ public class HeaderBlock extends BasePageObject {
     @FindBy(css = "[href='/login']")
     private WebElement singIn;
 
+
     @FindBy(css = "href='/register'")
     private WebElement registration;
     //////////////////////

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="502b4a4a-9cc6-4677-a4b9-2fdc3bf4ac63" name="Default Changelist" comment="Изменения из 7-ой ветки">
+    <list default="true" id="e0e83924-b4f4-4478-bcaf-d2228f4184f7" name="Default Changelist" comment="добавил файл README.md">
       <change afterPath="$PROJECT_DIR$/target/allure-results/0306a1c9-4a0c-4d64-94bc-f9e4e5f17f81-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/allure-results/0c2a4eaf-260e-4054-92d6-fa268c6c79db-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/allure-results/146a1b01-64ce-441d-b0dd-6d004527f7fb-container.json" afterDir="false" />
@@ -51,6 +51,24 @@
       <change afterPath="$PROJECT_DIR$/target/surefire-reports/ru.geekbrains.java.oop.at.LeftNavigationWebTest.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/surefire-reports/ru.geekbrains.java.oop.at.SearchWebTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/ContentNavigationCourseBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/ContentNavigationCourseBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/HeaderBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/HeaderBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/LeftNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/LeftNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/SearchTabsBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/block/SearchTabsBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/BasePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/BasePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/OpenUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/OpenUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/CoursePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/CoursePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/TestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/base/ContentBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/content/base/ContentBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/sing/AuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/page/sing/AuthorizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/utils/ButtonNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/utils/ButtonNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/AuthorizationWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/AuthorizationWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/CourseWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/CourseWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/LeftNavigationWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/LeftNavigationWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/SearchWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/SearchWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/base/BeforeAndAfterStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/java/oop/at/base/BeforeAndAfterStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,11 +254,11 @@
       <screen x="-323" y="-1057" width="1920" height="1057" />
     </state>
     <state x="375" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596794447703" />
-    <state x="260" y="-946" key="CommitChangelistDialog2" timestamp="1597044107303">
+    <state x="260" y="-946" key="CommitChangelistDialog2" timestamp="1597045344573">
       <screen x="-323" y="-1080" width="1920" height="1080" />
     </state>
     <state x="260" y="-926" key="CommitChangelistDialog2/-323.-1057.1920.1057/0.23.1440.823@-323.-1057.1920.1057" timestamp="1596811495284" />
-    <state x="260" y="-946" key="CommitChangelistDialog2/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597044107303" />
+    <state x="260" y="-946" key="CommitChangelistDialog2/-323.-1080.1920.1080/0.0.1440.900@-323.-1080.1920.1080" timestamp="1597045344573" />
     <state x="39" y="-920" key="DiffContextDialog" timestamp="1597043757688">
       <screen x="-323" y="-1080" width="1920" height="1080" />
     </state>

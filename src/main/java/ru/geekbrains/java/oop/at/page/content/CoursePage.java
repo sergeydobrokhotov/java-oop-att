@@ -35,6 +35,7 @@ public class CoursePage extends ContentBasePage {
         return this;
     }
 
+
     @Step("Проверка отображения курсов: {args}")
     public CoursePage checkingDisplayedCourses(String... args) {
         for (String text : args) {

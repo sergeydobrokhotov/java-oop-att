@@ -11,6 +11,7 @@ import ru.geekbrains.java.oop.at.page.sing.AuthorizationPage;
 @DisplayName("Проверка авторизации")
 public class AuthorizationWebTest extends BeforeAndAfterStep {
 
+
     @DisplayName("Проверка авторизации с корректными данными")
     @Test
     void events() {

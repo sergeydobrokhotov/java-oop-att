@@ -28,6 +28,7 @@ public abstract class ContentBasePage extends BasePageObject implements OpenUrl 
         this.leftNavigation = new LeftNavigation(driver);
     }
 
+
     @Step("Закрытие Pop-UP")
     public ContentBasePage closedPopUp() {
         wait10second.until(ExpectedConditions.visibilityOf(buttonPopUpClosed));

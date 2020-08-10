@@ -40,6 +40,7 @@ public class LeftNavigationWebTest extends BeforeAndAfterStep {
                 .openUrl()
                 .getLeftNavigation().clickButton(button)
                 .getHeader().checkNamePage(button.getText());
+
     }
 
 
